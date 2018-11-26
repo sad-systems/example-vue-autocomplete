@@ -1,0 +1,15 @@
+/**
+ * Mixins for the fonts
+ */
+
+@mixin font-face( $font-nsme, $font-base ) {
+
+  @font-face {
+    font-family: $font-nsme;
+    src: url($font-base + '.eot');
+    src: url($font-base + '.woff') format('woff'), url($font-base + '.ttf') format('truetype'), url($font-base + '.svg') format('svg');
+    font-weight: normal;
+    font-style:  normal;
+  }
+
+}

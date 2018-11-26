@@ -1,0 +1,13 @@
+{
+    "name": "Autocomplete component",
+    "description": "Autocomplete component: Vue.js component of input element with auto filled value",
+    "version": "1.0.0",
+    "url": "http://sad-systems.ru/",
+    "logo": "assets/logo.png",
+    "paths": "src",
+    "options": {
+        "themedir":  "../../yuidoc_themes/sad-systems",
+        "outdir":    "docs",
+        "extension": ".vue,.ts,.js"
+    }
+}
