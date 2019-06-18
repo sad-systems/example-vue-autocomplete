@@ -26,7 +26,8 @@ It is possible to specify a default value (the `value` property).
 If an item from the list is selected the `change` event will be emitted.
 
 The detailed description of the properties and events of the component 
-is described in the documentation [/docs](./docs).
+is described in the documentation under the `/docs` folder.
+(It's better to see the [live docs](http://examples.sad-systems.ru/autocomplete/docs/))
 
 > ru
 
@@ -46,25 +47,28 @@ is described in the documentation [/docs](./docs).
 
 При выборе элемента из списка срабатывает событие `change`.
  
-Более подробное описание свойств и событий компонента описано в документации [/docs](./docs). 
+Более подробное описание свойств и событий компонента описано в документации в папке `/docs`.
+(Лучше посмотреть [живую документацию](http://examples.sad-systems.ru/autocomplete/docs/)) 
 
 ### Live demo
 
   [http://examples.sad-systems.ru/autocomplete/]()
 
-### Project build files
-
- All the file placed under the [/dist](./dist) folder.
- To see the working project replace all the files from this 
- folder to the web server document root folder.  
 
 ### Project documentation
 
-  All the file placed under the [./docs/](http://examples.sad-systems.ru/autocomplete/docs/) folder.
-
+  All the file placed under the `/docs` folder 
+  or see the [live docs](http://examples.sad-systems.ru/autocomplete/docs/).
+ 
 ### Project source files
 
   All the file placed under the [/src](./src) folder
+
+### Project build files
+
+ All the file placed under the `/dist` folder.
+ To see the working project replace all the files from this 
+ folder to the web server document root folder. 
 
 ## To developer
 
