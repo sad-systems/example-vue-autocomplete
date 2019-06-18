@@ -60,7 +60,7 @@ is described in the documentation [/docs](./docs).
 
 ### Project documentation
 
-  All the file placed under the [/docs](./docs) folder
+  All the file placed under the [./docs/](http://examples.sad-systems.ru/autocomplete/docs/) folder.
 
 ### Project source files
 

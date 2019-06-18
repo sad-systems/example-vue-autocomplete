@@ -1,0 +1,594 @@
+{
+    "project": {
+        "name": "Autocomplete component",
+        "description": "Autocomplete component: Vue.js component of input element with auto filled value",
+        "version": "1.0.0",
+        "url": "http://sad-systems.ru/",
+        "logo": "assets/logo.png",
+        "paths": "src"
+    },
+    "files": {
+        "dist\\js\\chunk-vendors.9b61cb6a.js": {
+            "name": "dist\\js\\chunk-vendors.9b61cb6a.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "src\\components\\Autocomplete.vue": {
+            "name": "src\\components\\Autocomplete.vue",
+            "modules": {
+                "Autocomplete": 1
+            },
+            "classes": {
+                "Autocomplete": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "vue.config.js": {
+            "name": "vue.config.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        }
+    },
+    "modules": {
+        "Autocomplete": {
+            "name": "Autocomplete",
+            "submodules": {},
+            "elements": {
+                "Autocomplete": 1
+            },
+            "classes": {
+                "Autocomplete": 1
+            },
+            "fors": {},
+            "namespaces": {},
+            "tag": "main",
+            "file": "src\\components\\Autocomplete.vue",
+            "line": 74,
+            "description": "Autocomplete component",
+            "author": "MrDigger <mrdigger@mail.ru>",
+            "copyright": "© SAD-Systems [http://sad-systems.ru], 2018",
+            "created_on": "23.11.2018",
+            "itemtype": "main"
+        }
+    },
+    "classes": {
+        "Autocomplete": {
+            "name": "Autocomplete",
+            "shortname": "Autocomplete",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "Autocomplete",
+            "namespace": "",
+            "file": "src\\components\\Autocomplete.vue",
+            "line": 74,
+            "description": "Autocomplete component"
+        }
+    },
+    "elements": {
+        "Autocomplete": {
+            "name": "Autocomplete",
+            "attributes": [],
+            "module": "Autocomplete"
+        }
+    },
+    "classitems": [
+        {
+            "file": "dist\\js\\chunk-vendors.9b61cb6a.js",
+            "line": 8,
+            "license": "MIT\n/function r(t){return t&&\"object\"===typeof t&&\"default\"in t?t[\"default\"]:t}Object.defineProperty(n,\"__esModule\",{value:!0});var i=r(e(\"2b0e\")),o=\"undefined\"!==typeof Reflect&&Reflect.defineMetadata;function u(t,n){a(t,n),Object.getOwnPropertyNames(n.prototype).forEach(function(e){a(t.prototype,n.prototype,e)}),Object.getOwnPropertyNames(n).forEach(function(e){a(t,n,e)})}function a(t,n,e){var r=e?Reflect.getOwnMetadataKeys(n,e):Reflect.getOwnMetadataKeys(n);r.forEach(function(r){var i=e?Reflect.getOwnMetadata(r,n,e):Reflect.getOwnMetadata(r,n);e?Reflect.defineMetadata(r,i,t,e):Reflect.defineMetadata(r,i,t)})}var c={__proto__:[]},s=c instanceof Array;function f(t){return function(n,e,r){var i=\"function\"===typeof n?n:n.constructor;i.__decorators__||(i.__decorators__=[]),\"number\"!==typeof r&&(r=void 0),i.__decorators__.push(function(n){return t(n,e,r)})}}function l(){for(var t=[],n=0;n<arguments.length;n++)t[n]=arguments[n];return i.extend({mixins:t})}function p(t){var n=typeof t;return null==t||\"object\"!==n&&\"function\"!==n}function h(t,n){var e=n.prototype._init;n.prototype._init=function(){var n=this,e=Object.getOwnPropertyNames(t);if(t.$options.props)for(var r in t.$options.props)t.hasOwnProperty(r)||e.push(r);e.forEach(function(e){\"_\"!==e.charAt(0)&&Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){t[e]=n},configurable:!0})})};var r=new n;n.prototype._init=e;var i={};return Object.keys(r).forEach(function(t){void 0!==r[t]&&(i[t]=r[t])}),i}var d=[\"data\",\"beforeCreate\",\"created\",\"beforeMount\",\"mounted\",\"beforeDestroy\",\"destroyed\",\"beforeUpdate\",\"updated\",\"activated\",\"deactivated\",\"render\",\"errorCaptured\"];function v(t,n){void 0===n&&(n={}),n.name=n.name||t._componentTag||t.name;var e=t.prototype;Object.getOwnPropertyNames(e).forEach(function(t){if(\"constructor\"!==t)if(d.indexOf(t)>-1)n[t]=e[t];else{var r=Object.getOwnPropertyDescriptor(e,t);void 0!==r.value?\"function\"===typeof r.value?(n.methods||(n.methods={}))[t]=r.value:(n.mixins||(n.mixins=[])).push({data:function(){var n;return n={},n[t]=r.value,n}}):(r.get||r.set)&&((n.computed||(n.computed={}))[t]={get:r.get,set:r.set})}}),(n.mixins||(n.mixins=[])).push({data:function(){return h(this,t)}});var r=t.__decorators__;r&&(r.forEach(function(t){return t(n)}),delete t.__decorators__);var a=Object.getPrototypeOf(t.prototype),c=a instanceof i?a.constructor:i,s=c.extend(n);return y(s,t,c),o&&u(s,t),s}function y(t,n,e){Object.getOwnPropertyNames(n).forEach(function(r){if(\"prototype\"!==r){var i=Object.getOwnPropertyDescriptor(t,r);if(!i||i.configurable){var o=Object.getOwnPropertyDescriptor(n,r);if(!s){if(\"cid\"===r)return;var u=Object.getOwnPropertyDescriptor(e,r);if(!p(o.value)&&u&&u.value===o.value)return}0,Object.defineProperty(t,r,o)}}})}function _(t){return\"function\"===typeof t?v(t):function(n){return v(n,t)}}_.registerHooks=function(t){d.push.apply(d,t)},n.default=_,n.createDecorator=f,n.mixins=l},6821:function(t,n,e){var r=e(\"626a\"),i=e(\"be13\");t.exports=function(t){return r(i(t))}},\"69a8\":function(t,n){var e={}.hasOwnProperty;t.exports=function(t,n){return e.call(t,n)}},\"69dd\":function(t,n,e){\"use strict\";e.d(n,\"a\",function(){return a});var r=e(\"9ab4\"),i=e(\"1453\"),o=e(\"1219\"),u=e(\"7a28\");function a(t,n){return function(e){return e.lift(new c(t,n))}}var c=function(){function t(t,n){this.compare=t,this.keySelector=n}return t.prototype.call=function(t,n){return n.subscribe(new s(t,this.compare,this.keySelector))},t}(),s=function(t){function n(n,e,r){var i=t.call(this,n)||this;return i.keySelector=r,i.hasKey=!1,\"function\"===typeof e&&(i.compare=e),i}return r[\"b\"](n,t),n.prototype.compare=function(t,n){return t===n},n.prototype._next=function(t){var n=this.keySelector,e=t;if(n&&(e=Object(o[\"a\"])(this.keySelector)(t),e===u[\"a\"]))return this.destination.error(u[\"a\"].e);var r=!1;if(this.hasKey){if(r=Object(o[\"a\"])(this.compare)(this.key,e),r===u[\"a\"])return this.destination.error(u[\"a\"].e)}else this.hasKey=!0;!1===Boolean(r)&&(this.key=e,this.destination.next(t))},n}(i[\"a\"])},\"6a99\":function(t,n,e){var r=e(\"d3f4\");t.exports=function(t,n){if(!r(t))return t;var e,i;if(n&&\"function\"==typeof(e=t.toString)&&!r(i=e.call(t)))return i;if(\"function\"==typeof(e=t.valueOf)&&!r(i=e.call(t)))return i;if(!n&&\"function\"==typeof(e=t.toString)&&!r(i=e.call(t)))return i;throw TypeError(\"Can't convert object to primitive value\")}},\"6b54\":function(t,n,e){\"use strict\";e(\"3846\");var r=e(\"cb7c\"),i=e(\"0bfb\"),o=e(\"9e1e\"),u=\"toString\",a=/./[u],c=function(t){e(\"2aba\")(RegExp.prototype,u,t,!0)};e(\"79e5\")(function(){return\"/a/b\"!=a.call({source:\"a\",flags:\"b\"})})?c(function(){var t=r(this);return\"/\".concat(t.source,\"/\",\"flags\"in t?t.flags:!o&&t instanceof RegExp?i.call(t):void 0)}):a.name!=u&&c(function(){return a.call(this)})},7726:function(t,n){var e=t.exports=\"undefined\"!=typeof window&&window.Math==Math?window:\"undefined\"!=typeof self&&self.Math==Math?self:Function(\"return this\")();\"number\"==typeof __g&&(__g=e)},\"77f1\":function(t,n,e){var r=e(\"4588\"),i=Math.max,o=Math.min;t.exports=function(t,n){return t=r(t),t<0?i(t+n,0):o(t,n)}},\"79e5\":function(t,n){t.exports=function(t){try{return!!t()}catch(n){return!0}}},\"7a28\":function(t,n,e){\"use strict\";e.d(n,\"a\",function(){return r});var r={e:{}}},\"7a56\":function(t,n,e){\"use strict\";var r=e(\"7726\"),i=e(\"86cc\"),o=e(\"9e1e\"),u=e(\"2b4c\")(\"species\");t.exports=function(t){var n=r[t];o&&n&&!n[u]&&i.f(n,u,{configurable:!0,get:function(){return this}})}},\"7e84\":function(t,n,e){\"use strict\";function r(t){return r=Object.setPrototypeOf?Object.getPrototypeOf:function(t){return t.__proto__||Object.getPrototypeOf(t)},r(t)}e.d(n,\"a\",function(){return r})},\"7f20\":function(t,n,e){var r=e(\"86cc\").f,i=e(\"69a8\"),o=e(\"2b4c\")(\"toStringTag\");t.exports=function(t,n,e){t&&!i(t=e?t:t.prototype,o)&&r(t,o,{configurable:!0,value:n})}},\"7f7f\":function(t,n,e){var r=e(\"86cc\").f,i=Function.prototype,o=/^\\s*function ([^ (]*)/,u=\"name\";u in i||e(\"9e1e\")&&r(i,u,{configurable:!0,get:function(){try{return(\"\"+this).match(o)[1]}catch(t){return\"\"}}})},8079:function(t,n,e){var r=e(\"7726\"),i=e(\"1991\").set,o=r.MutationObserver||r.WebKitMutationObserver,u=r.process,a=r.Promise,c=\"process\"==e(\"2d95\")(u);t.exports=function(){var t,n,e,s=function(){var r,i;c&&(r=u.domain)&&r.exit();while(t){i=t.fn,t=t.next;try{i()}catch(o){throw t?e():n=void 0,o}}n=void 0,r&&r.enter()};if(c)e=function(){u.nextTick(s)};else if(!o||r.navigator&&r.navigator.standalone)if(a&&a.resolve){var f=a.resolve(void 0);e=function(){f.then(s)}}else e=function(){i.call(r,s)};else{var l=!0,p=document.createTextNode(\"\");new o(s).observe(p,{characterData:!0}),e=function(){p.data=l=!l}}return function(r){var i={fn:r,next:void 0};n&&(n.next=i),t||(t=i,e()),n=i}}},8378:function(t,n){var e=t.exports={version:\"2.5.7\"};\"number\"==typeof __e&&(__e=e)},\"84f2\":function(t,n){t.exports={}},\"86cc\":function(t,n,e){var r=e(\"cb7c\"),i=e(\"c69a\"),o=e(\"6a99\"),u=Object.defineProperty;n.f=e(\"9e1e\")?Object.defineProperty:function(t,n,e){if(r(t),n=o(n,!0),r(e),i)try{return u(t,n,e)}catch(a){}if(\"get\"in e||\"set\"in e)throw TypeError(\"Accessors not supported!\");return\"value\"in e&&(t[n]=e.value),t}},\"88bc\":function(t,n,e){\"use strict\";e.d(n,\"a\",function(){return i});var r=!1,i={Promise:void 0,set useDeprecatedSynchronousErrorHandling(t){if(t){var n=new Error;n.stack}r=t},get useDeprecatedSynchronousErrorHandling(){return r}}},\"99de\":function(t,n,e){\"use strict\";function r(t){return r=\"function\"===typeof Symbol&&\"symbol\"===typeof Symbol.iterator?function(t){return typeof t}:function(t){return t&&\"function\"===typeof Symbol&&t.constructor===Symbol&&t!==Symbol.prototype?\"symbol\":typeof t},r(t)}function i(t){return i=\"function\"===typeof Symbol&&\"symbol\"===r(Symbol.iterator)?function(t){return r(t)}:function(t){return t&&\"function\"===typeof Symbol&&t.constructor===Symbol&&t!==Symbol.prototype?\"symbol\":r(t)},i(t)}function o(t){if(void 0===t)throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\");return t}function u(t,n){return!n||\"object\"!==i(n)&&\"function\"!==typeof n?o(t):n}e.d(n,\"a\",function(){return u})},\"9ab4\":function(t,n,e){\"use strict\";e.d(n,\"b\",function(){return i}),e.d(n,\"a\",function(){return o});\n/*! *****************************************************************************\nCopyright (c) Microsoft Corporation. All rights reserved.\nLicensed under the Apache License, Version 2.0 (the \"License\"); you may not use\nthis file except in compliance with the License. You may obtain a copy of the\nLicense at http://www.apache.org/licenses/LICENSE-2.0\n\nTHIS CODE IS PROVIDED ON AN *AS IS* BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY\nKIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED\nWARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE,\nMERCHANTABLITY OR NON-INFRINGEMENT.\n\nSee the Apache Version 2.0 License for specific language governing permissions\nand limitations under the License.",
+            "class": "Autocomplete"
+        },
+        {
+            "file": "src\\components\\Autocomplete.vue",
+            "line": 43,
+            "interface": "IListItem",
+            "class": "Autocomplete",
+            "module": "Autocomplete"
+        },
+        {
+            "file": "src\\components\\Autocomplete.vue",
+            "line": 48,
+            "interface": "IListMapCallbackFunction",
+            "class": "Autocomplete",
+            "module": "Autocomplete"
+        },
+        {
+            "file": "src\\components\\Autocomplete.vue",
+            "line": 53,
+            "enum": "InitFetchStrategy",
+            "class": "Autocomplete",
+            "module": "Autocomplete"
+        },
+        {
+            "file": "src\\components\\Autocomplete.vue",
+            "line": 58,
+            "itemtype": "property",
+            "name": "Messages",
+            "final": "",
+            "class": "Autocomplete",
+            "module": "Autocomplete"
+        },
+        {
+            "file": "src\\components\\Autocomplete.vue",
+            "line": 82,
+            "description": "Main style class of the component",
+            "itemtype": "property",
+            "name": "className",
+            "type": "string",
+            "default": "\"autocomplete-container\"",
+            "class": "Autocomplete",
+            "module": "Autocomplete"
+        },
+        {
+            "file": "src\\components\\Autocomplete.vue",
+            "line": 91,
+            "description": "Input array of items.\nCan contain any type of objects.\n\n> If input array do not contain `IListItem` objects you have to implement the `mapper` function.",
+            "itemtype": "property",
+            "name": "items",
+            "type": "Object[]",
+            "default": "[]",
+            "class": "Autocomplete",
+            "module": "Autocomplete"
+        },
+        {
+            "file": "src\\components\\Autocomplete.vue",
+            "line": 103,
+            "description": "Default value.\nIt will be set when component is created",
+            "itemtype": "property",
+            "name": "value",
+            "type": "any",
+            "default": "''",
+            "class": "Autocomplete",
+            "module": "Autocomplete"
+        },
+        {
+            "file": "src\\components\\Autocomplete.vue",
+            "line": 113,
+            "description": "Mapper function to convert input array of any objects to the array of native objects.\nThe mapper function must implements the `IListMapCallbackFunction` interface.\n\n> You do not need to implement this function if you use native IListItem[] in prop `items`\n  or data received from server.",
+            "itemtype": "property",
+            "name": "mapper",
+            "type": "IListMapCallbackFunction",
+            "default": "null",
+            "class": "Autocomplete",
+            "module": "Autocomplete"
+        },
+        {
+            "file": "src\\components\\Autocomplete.vue",
+            "line": 126,
+            "description": "URL to request data from remote server.\nIf you do not wish to set `items` in your code you can obtain the data from remote server\nby setting the request URL.",
+            "itemtype": "property",
+            "name": "url",
+            "type": "string",
+            "default": "''",
+            "class": "Autocomplete",
+            "module": "Autocomplete"
+        },
+        {
+            "file": "src\\components\\Autocomplete.vue",
+            "line": 137,
+            "description": "Flag (true|false).\n\nTRUE:  If it is `true` all changes of user input will be send to the remote server\n       and the response data override the existed item list.\n       It means the server side filtering.\n\nFALSE: If it is `false` all changes of user input will be applied on the locale item list.\n       It means local filtering.",
+            "itemtype": "property",
+            "name": "serverSearch",
+            "type": "boolean",
+            "default": "false",
+            "class": "Autocomplete",
+            "module": "Autocomplete"
+        },
+        {
+            "file": "src\\components\\Autocomplete.vue",
+            "line": 153,
+            "description": "String pattern defines server request param string.\nThis string will be added to the prop `url` opn server request.\nThe user input data replaces `[search]` marker.",
+            "itemtype": "property",
+            "name": "serverParamString",
+            "type": "string",
+            "default": "'?key=[search]'",
+            "class": "Autocomplete",
+            "module": "Autocomplete"
+        },
+        {
+            "file": "src\\components\\Autocomplete.vue",
+            "line": 164,
+            "description": "Enum {none, onInit, onFocus}\n\nDefines the time of initial load the `item list`.\n\n - `onInit`:  means the `item list` will be loaded on component is created.\n - `onFocus`: means the `item list` will be loaded on component is first focused. (By default)\n - `none`:    means the `item list` will be loaded on user inputs first character.",
+            "itemtype": "property",
+            "name": "InitFetchStrategy",
+            "type": "InitFetchStrategy",
+            "default": "onFocus",
+            "class": "Autocomplete",
+            "module": "Autocomplete"
+        },
+        {
+            "file": "src\\components\\Autocomplete.vue",
+            "line": 179,
+            "description": "Debounce time interval for user input (in milliseconds)",
+            "itemtype": "property",
+            "name": "bounceDelay",
+            "type": "number",
+            "default": "200",
+            "class": "Autocomplete",
+            "module": "Autocomplete"
+        },
+        {
+            "file": "src\\components\\Autocomplete.vue",
+            "line": 188,
+            "description": "The placeholder phrase",
+            "itemtype": "property",
+            "name": "placeholder",
+            "type": "string",
+            "default": "Messages.PLACEHOLDER",
+            "class": "Autocomplete",
+            "module": "Autocomplete"
+        },
+        {
+            "file": "src\\components\\Autocomplete.vue",
+            "line": 197,
+            "description": "The array of text messages (errors, notes, hints ...)\nUse `Messages` object structure to define all existed text messages.",
+            "itemtype": "property",
+            "name": "messages",
+            "type": "Object",
+            "default": "Messages",
+            "class": "Autocomplete",
+            "module": "Autocomplete"
+        },
+        {
+            "file": "src\\components\\Autocomplete.vue",
+            "line": 207,
+            "description": "This event is emitted if the item is selected",
+            "itemtype": "event",
+            "name": "change",
+            "params": [
+                {
+                    "name": "item",
+                    "description": "The selected item object",
+                    "type": "IListItem"
+                }
+            ],
+            "class": "Autocomplete",
+            "module": "Autocomplete"
+        },
+        {
+            "file": "src\\components\\Autocomplete.vue",
+            "line": 246,
+            "description": "`@Watcher`\nWatches on the user input and emits the 'change' event\non the Observable instance to notify all the subscribers",
+            "access": "protected",
+            "tagname": "",
+            "itemtype": "method",
+            "name": "inputValue",
+            "params": [
+                {
+                    "name": "value",
+                    "description": "",
+                    "type": "String"
+                }
+            ],
+            "class": "Autocomplete",
+            "module": "Autocomplete"
+        },
+        {
+            "file": "src\\components\\Autocomplete.vue",
+            "line": 267,
+            "description": "`@Hook`\nThe live cycle hook on component is created.\nContains the main logic.\n\n`overrides`",
+            "access": "public",
+            "tagname": "",
+            "itemtype": "method",
+            "name": "created",
+            "class": "Autocomplete",
+            "module": "Autocomplete"
+        },
+        {
+            "file": "src\\components\\Autocomplete.vue",
+            "line": 299,
+            "description": "`@Hook`\nThe live cycle hook on component is destroyed.\n\n`overrides`",
+            "access": "public",
+            "tagname": "",
+            "itemtype": "method",
+            "name": "destroyed",
+            "class": "Autocomplete",
+            "module": "Autocomplete"
+        },
+        {
+            "file": "src\\components\\Autocomplete.vue",
+            "line": 316,
+            "description": "Helps to create RXJS operator [http://reactivex.io/rxjs]",
+            "access": "protected",
+            "tagname": "",
+            "itemtype": "method",
+            "name": "operator",
+            "params": [
+                {
+                    "name": "callback",
+                    "description": "Function returns Observable",
+                    "type": "(value: any) => Observable<any>"
+                }
+            ],
+            "return": {
+                "description": "Observable<any>"
+            },
+            "class": "Autocomplete",
+            "module": "Autocomplete"
+        },
+        {
+            "file": "src\\components\\Autocomplete.vue",
+            "line": 336,
+            "description": "Converts the input data to the internal native format ( Object[] -> IListItem[] )",
+            "access": "protected",
+            "tagname": "",
+            "itemtype": "method",
+            "name": "dataConverter",
+            "params": [
+                {
+                    "name": "inputData",
+                    "description": "",
+                    "type": "Object[]"
+                },
+                {
+                    "name": "mapper",
+                    "description": "",
+                    "type": "IListMapCallbackFunction"
+                }
+            ],
+            "return": {
+                "description": "IListItem[]"
+            },
+            "class": "Autocomplete",
+            "module": "Autocomplete"
+        },
+        {
+            "file": "src\\components\\Autocomplete.vue",
+            "line": 351,
+            "description": "Creates the request params string based on `serverParamString` pattern\nand the `searchString`",
+            "access": "protected",
+            "tagname": "",
+            "itemtype": "method",
+            "name": "createRequestParamString",
+            "params": [
+                {
+                    "name": "searchString",
+                    "description": "",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "string"
+            },
+            "class": "Autocomplete",
+            "module": "Autocomplete"
+        },
+        {
+            "file": "src\\components\\Autocomplete.vue",
+            "line": 366,
+            "description": "Selects the default value if it exists",
+            "access": "protected",
+            "tagname": "",
+            "itemtype": "method",
+            "name": "initDefaultValue",
+            "class": "Autocomplete",
+            "module": "Autocomplete"
+        },
+        {
+            "file": "src\\components\\Autocomplete.vue",
+            "line": 382,
+            "description": "Parses the data obtained from server and fill the source list (`sourceItemList`)",
+            "access": "protected",
+            "tagname": "",
+            "itemtype": "method",
+            "name": "parseServerResponse",
+            "params": [
+                {
+                    "name": "response",
+                    "description": "",
+                    "type": "Any"
+                }
+            ],
+            "class": "Autocomplete",
+            "module": "Autocomplete"
+        },
+        {
+            "file": "src\\components\\Autocomplete.vue",
+            "line": 396,
+            "description": "Handles server error",
+            "access": "protected",
+            "tagname": "",
+            "itemtype": "method",
+            "name": "parseServerError",
+            "params": [
+                {
+                    "name": "error",
+                    "description": "",
+                    "type": "Any"
+                }
+            ],
+            "return": {
+                "description": "Observable<any>"
+            },
+            "class": "Autocomplete",
+            "module": "Autocomplete"
+        },
+        {
+            "file": "src\\components\\Autocomplete.vue",
+            "line": 412,
+            "description": "Sends the search string (user input) to the remote server.\nServer side filtering.",
+            "access": "protected",
+            "tagname": "",
+            "itemtype": "method",
+            "name": "requestToServer",
+            "params": [
+                {
+                    "name": "searchString",
+                    "description": "",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "Observable<any>"
+            },
+            "class": "Autocomplete",
+            "module": "Autocomplete"
+        },
+        {
+            "file": "src\\components\\Autocomplete.vue",
+            "line": 436,
+            "description": "Chooses the way to obtain the source data of `item list`:\n  - from server\n  - from plain list (prop `items`)",
+            "access": "protected",
+            "tagname": "",
+            "itemtype": "method",
+            "name": "retrieveData",
+            "params": [
+                {
+                    "name": "searchString",
+                    "description": "",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "Observable<any>"
+            },
+            "class": "Autocomplete",
+            "module": "Autocomplete"
+        },
+        {
+            "file": "src\\components\\Autocomplete.vue",
+            "line": 470,
+            "description": "Local filter.\nReturns all the items from `item list` containing `searchString` (user input)",
+            "access": "protected",
+            "tagname": "",
+            "itemtype": "method",
+            "name": "filter",
+            "params": [
+                {
+                    "name": "searchString",
+                    "description": "",
+                    "type": "String"
+                },
+                {
+                    "name": "sourceList",
+                    "description": "",
+                    "type": "IListItem[]"
+                }
+            ],
+            "return": {
+                "description": "IListItem[]"
+            },
+            "class": "Autocomplete",
+            "module": "Autocomplete"
+        },
+        {
+            "file": "src\\components\\Autocomplete.vue",
+            "line": 489,
+            "description": "Creates a final filtered item list to render (`filteredList`).\nSelects the type of filtering:\n  - server side\n  - client side (local filter)",
+            "access": "protected",
+            "tagname": "",
+            "itemtype": "method",
+            "name": "createList",
+            "params": [
+                {
+                    "name": "searchString",
+                    "description": "",
+                    "type": "String"
+                }
+            ],
+            "class": "Autocomplete",
+            "module": "Autocomplete"
+        },
+        {
+            "file": "src\\components\\Autocomplete.vue",
+            "line": 525,
+            "description": "Sets the given item as selected.",
+            "access": "protected",
+            "tagname": "",
+            "itemtype": "method",
+            "name": "selectItem",
+            "params": [
+                {
+                    "name": "item",
+                    "description": "",
+                    "type": "IListItem"
+                }
+            ],
+            "class": "Autocomplete",
+            "module": "Autocomplete"
+        },
+        {
+            "file": "src\\components\\Autocomplete.vue",
+            "line": 540,
+            "description": "Selects an item automatically.\n(Gets the first item from the item list filtered by user input)",
+            "access": "protected",
+            "tagname": "",
+            "itemtype": "method",
+            "name": "autoSelectItem",
+            "class": "Autocomplete",
+            "module": "Autocomplete"
+        },
+        {
+            "file": "src\\components\\Autocomplete.vue",
+            "line": 556,
+            "description": "Creates note messages",
+            "access": "protected",
+            "tagname": "",
+            "itemtype": "method",
+            "name": "getNote",
+            "class": "Autocomplete",
+            "module": "Autocomplete"
+        },
+        {
+            "file": "vue.config.js",
+            "line": 1,
+            "description": "vue.config.js \n\nis an optional config file that will be automatically loaded by @vue/cli-service \nif it's present in your project root (next to package.json). \nYou can also use the vue field in package.json, \nbut do note in that case you will be limited to JSON-compatible values only.",
+            "class": "",
+            "module": "Autocomplete"
+        }
+    ],
+    "warnings": [
+        {
+            "message": "unknown tag: license",
+            "line": " dist\\js\\chunk-vendors.9b61cb6a.js:8"
+        },
+        {
+            "message": "unknown tag: license",
+            "line": " dist\\js\\chunk-vendors.9b61cb6a.js:8"
+        },
+        {
+            "message": "unknown tag: license",
+            "line": " dist\\js\\chunk-vendors.9b61cb6a.js:8"
+        },
+        {
+            "message": "unknown tag: copyright",
+            "line": " src\\components\\Autocomplete.vue:20"
+        },
+        {
+            "message": "unknown tag: created_on",
+            "line": " src\\components\\Autocomplete.vue:20"
+        },
+        {
+            "message": "unknown tag: enum",
+            "line": " src\\components\\Autocomplete.vue:53"
+        },
+        {
+            "message": "Missing item type",
+            "line": " dist\\js\\chunk-vendors.9b61cb6a.js:8"
+        },
+        {
+            "message": "Missing item type",
+            "line": " src\\components\\Autocomplete.vue:43"
+        },
+        {
+            "message": "Missing item type",
+            "line": " src\\components\\Autocomplete.vue:48"
+        },
+        {
+            "message": "Missing item type",
+            "line": " src\\components\\Autocomplete.vue:53"
+        },
+        {
+            "message": "Missing item type\nvue.config.js \n\nis an optional config file that will be automatically loaded by @vue/cli-service \nif it's present in your project root (next to package.json). \nYou can also use the vue field in package.json, \nbut do note in that case you will be limited to JSON-compatible values only.",
+            "line": " vue.config.js:1"
+        }
+    ]
+}
