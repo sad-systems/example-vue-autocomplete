@@ -1,6 +1,6 @@
-# Autocomlete vue-component
+# Autocomplete vue.js component
 
-###### MrDigger <mrdigger@mail.ru>
+###### Author: MrDigger <mrdigger@mail.ru>
 ###### © SAD-Systems [http://sad-systems.ru](), 2018
 
 ## Description
