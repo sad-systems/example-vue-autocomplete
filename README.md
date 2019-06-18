@@ -52,7 +52,7 @@ is described in the documentation under the `/docs` folder.
 
 ### Live demo
 
-  [http://examples.sad-systems.ru/autocomplete/]()
+  Try the [live demo](http://examples.sad-systems.ru/autocomplete/)
 
 
 ### Project documentation
