@@ -5,7 +5,7 @@
 
 ## Description
 
-> en
+> ![English](docs/assets/img/en.gif)
 
 The component implements a select from list UI element with an automatic search.
 
@@ -29,7 +29,7 @@ The detailed description of the properties and events of the component
 is described in the documentation under the `/docs` folder.
 (It's better to see the [live docs](http://examples.sad-systems.ru/autocomplete/docs/))
 
-> ru
+> ![Russian](docs/assets/img/ru.gif)
 
 Компонент реализует элемент UI "выбор из списка" с авоматическим поиском.
 
