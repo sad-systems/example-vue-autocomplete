@@ -1,8 +1,14 @@
-# Autocomplete vue.js component
+# Autocomplete component for Vue.js
 
 ###### Author: MrDigger <mrdigger@mail.ru>
 ###### © SAD-Systems [http://sad-systems.ru](), 2018
 
+## Is used
+
+  * [Vue.js](https://vuejs.org/)
+  * [Typescript](https://www.typescriptlang.org)
+  * [Pug](https://pugjs.org)
+    
 ## Description
 
 > ![English](docs/assets/img/en.gif)
